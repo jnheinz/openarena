@@ -1,4 +1,4 @@
-# Docker SickRage
+# Docker OpenArena server
 
 This is a Dockerfile to deploy OpenArena server.
 
