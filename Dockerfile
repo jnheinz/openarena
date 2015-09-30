@@ -2,7 +2,6 @@ FROM debian:wheezy
 
 MAINTAINER Frederic GRACIA <gracia.frederic@gmail.com>
 
-RUN sh -c "echo 'Acquire::http { Proxy \"http://192.168.0.10:3142\"; };' > /etc/apt/apt.conf.d/02proxy"
 
 # Install packages
 RUN apt-get update
