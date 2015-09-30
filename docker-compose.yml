@@ -4,4 +4,4 @@ openarena:
     - "27950:27950/udp"
     - "27960:27960/udp"
   volumes:
-    - /home/fgracia/Documents/OpenArena/conf:/data
+    - /<local-directory-for-config-files>:/data
