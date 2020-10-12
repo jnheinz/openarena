@@ -47,4 +47,4 @@ then
 fi
 
 # Starts the server
-/opt/openarena-0.8.8/oa_ded.x86_64 +set dedicated 2 +exec server1.cfg
+/opt/openarena-0.8.8/oa_ded.x86_64 +set dedicated 2 +exec server1.cfg +set net_port 27961
